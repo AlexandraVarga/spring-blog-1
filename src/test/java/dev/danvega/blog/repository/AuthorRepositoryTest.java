@@ -22,7 +22,7 @@ class AuthorRepositoryTest {
     @Test
     void shouldReturnAllAuthors() {
         long count = StreamSupport.stream(authors.findAll().spliterator(), false).count();
-        assertEquals(1, count);
+        assertEquals(2, count);
     }
 
 }
