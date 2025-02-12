@@ -1,8 +1,11 @@
+server:
+  port: 8082
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/blog
     username: postgres
-    password: password
+    password: root
 
   sql:
     init:
